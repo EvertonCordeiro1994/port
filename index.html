@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/hamburgers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="shortcut icon" href="./images/pics/profile.png" type="image/x-icon">
+    <title>Everton Cordeiro</title>
+</head>
+
+<body>
+    <header class="flex justify-center px-4 mt-4 ">
+        <div class="w-full flex justify-between items-center fixed">
+            <img src="./images/pics/profile.png" alt="logo" class="w-16 h-16">
+
+            <nav>
+                <div class="hidden">
+                    <ul>
+                        <li>HOME</li>
+                        <li>SOBRE</li>
+                        <li>PORTIFÓLIO</li>
+                        <li>CONTATO</li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="hamburger hamburger--collapse " type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex flex-col">
+        <section id="home" class="flex flex-col items-center justify-center w-screen h-screen">
+            <img src="./images/pics/profile.png" alt="foto preta e branca com fundo laranja" class="w-5/6 rounded-xl">
+            <h1 class="text-4xl font-black">Éverton Cordeiro</h1>
+            <h2 class="text-2xl font-bold text-orange-700">Desenvolvedor Web</h2>
+            <div id="social_medias" class="flex justify-around w-4/5 mt-8">
+                <img src="./images/social_media/logo_instagram.png" alt="logo instagram" class="w-16">
+                <img src="./images/social_media/logo_linkedin.png" alt="logo linkedin" class="w-16">
+                <img src="./images/social_media/logo_github.png" alt="logo github" class="w-16">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" defer></script>
+    <script src="./script/hamburger.js" defer></script>
+</body>
+
+</html>
